@@ -8,3 +8,13 @@ function extractFields ($target, $fields) {
 
     return $arr;
 }
+
+function checkNameDir ($patch) {
+
+    $name = scandir($patch);
+    if ($name) {
+        return true;
+    } else {
+        return false;
+    }
+}

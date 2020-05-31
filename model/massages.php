@@ -2,7 +2,7 @@
 include_once('core/db.php');
 
 function select () {
-    $sql = "SELECT * FROM messages ORDER BY time DESC ";
+    $sql = "SELECT * FROM massages ORDER BY time DESC ";
     $data = dbQuery($sql, null);
     $data = $data->fetchAll();
 
@@ -10,10 +10,15 @@ function select () {
 }
 
 function insert ($params) {
-    $sql = "INSERT INTO message (login, message) VALUES (:login, :message)";
+    $sql = "INSERT INTO massages (login, massage) VALUES (:login, :message)";
     $data = dbQuery($sql, $params);
+    if ($data) {
+        return true;
+    } else {
+        return false;
+    }
 
-    return true;
+
 }
 
 function massageValidate (&$params) {

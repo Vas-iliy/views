@@ -1,11 +1,11 @@
 <div>
-    <a href="form.php">Написать сообщение</a>
+    <a href="index.php?c=form">Написать сообщение</a>
     <hr>
     <?foreach ($message as $m):?>
         <div>
             <strong><?=$m['login']?></strong>
             <p> Оставил сообщение: </p>
-            <p><?=$m['message']?> || <?=$m['time']?></p>
+            <p><?=$m['massage']?> </p>
             <hr>
         </div>
     <?endforeach;?>

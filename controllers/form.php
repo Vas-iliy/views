@@ -19,4 +19,4 @@ if ($_POST['login']) {
     $validateErrors = [];
 }
 
-include ('views/v_form.php');
+include('views/v_form.php');
