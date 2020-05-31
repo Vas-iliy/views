@@ -2,16 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="76021d70-2dfb-4ec8-8863-0a4ec6ac9c54" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controllers/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/errors/v_404.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/arr.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/arr.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/form.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/form.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/massages.php" beforeDir="false" afterPath="$PROJECT_DIR$/model/massages.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/v_index.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/v_index.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -112,7 +105,7 @@
       <updated>1590950136271</updated>
       <workItem from="1590950137701" duration="1001000" />
       <workItem from="1590953013477" duration="509000" />
-      <workItem from="1590955428504" duration="2528000" />
+      <workItem from="1590955428504" duration="3133000" />
     </task>
     <servers />
   </component>

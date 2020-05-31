@@ -10,11 +10,12 @@ function extractFields ($target, $fields) {
 }
 
 function checkNameDir ($patch) {
-
-    $name = scandir($patch);
-    if ($name) {
-        return true;
-    } else {
-        return false;
+    $dir = 'controllers';
+    $names = scandir($dir);
+    foreach ($names as $name) {
+        if ($patch == $name) {
+            return true;
+        }
     }
+    return false;
 }
