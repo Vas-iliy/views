@@ -1,5 +1,4 @@
 <?php
-include_once('core/db.php');
 
 function select () {
     $sql = "SELECT login,massage FROM massages ORDER BY time DESC ";

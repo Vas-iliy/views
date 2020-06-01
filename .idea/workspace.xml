@@ -2,11 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="76021d70-2dfb-4ec8-8863-0a4ec6ac9c54" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/init.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controllers/form.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/form.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controllers/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/v_form.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/v_form.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/v_index.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/v_index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/db.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/db.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/massages.php" beforeDir="false" afterPath="$PROJECT_DIR$/model/massages.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -108,7 +110,7 @@
       <updated>1590950136271</updated>
       <workItem from="1590950137701" duration="1001000" />
       <workItem from="1590953013477" duration="509000" />
-      <workItem from="1590955428504" duration="14951000" />
+      <workItem from="1590955428504" duration="16636000" />
     </task>
     <servers />
   </component>
