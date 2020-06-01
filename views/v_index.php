@@ -1,13 +1,4 @@
+<a href="index.php?c=form">Добавить коммент</a>
 <div>
-    <a href="index.php?c=form">Написать сообщение</a>
-    <hr>
-    <?foreach ($message as $m):?>
-        <div>
-            <strong><?=$m['login']?></strong>
-            <p> Оставил сообщение: </p>
-            <p><?=$m['massage']?> </p>
-            <hr>
-        </div>
-    <?endforeach;?>
-
+    <?=$message?>
 </div>

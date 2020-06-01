@@ -13,7 +13,9 @@
 </head>
 <body>
 <h1>Hello, world!</h1>
-<h2><?=$content?></h2>
+<div>
+    <?=$content?>
+</div>
 
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->

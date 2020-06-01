@@ -2,7 +2,7 @@
 include_once('core/db.php');
 
 function select () {
-    $sql = "SELECT * FROM massages ORDER BY time DESC ";
+    $sql = "SELECT login,massage FROM massages ORDER BY time DESC ";
     $data = dbQuery($sql, null);
     $data = $data->fetchAll();
 

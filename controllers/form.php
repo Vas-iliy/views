@@ -19,4 +19,11 @@ if ($_POST['login']) {
     $validateErrors = [];
 }
 
-include('views/v_form.php');
+$pageTitle = 'Massage';
+foreach ($validateErrors as $error) {
+    $er .= $error . "<br>";
+}
+$pageContent = template('v_form', ['errors' => $er,
+    'login' => $params['login'],
+    'message' => $params['message']
+]);
