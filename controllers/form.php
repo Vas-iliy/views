@@ -20,10 +20,8 @@ if ($_POST['login']) {
 }
 
 $pageTitle = 'Massage';
-foreach ($validateErrors as $error) {
-    $er .= $error . "<br>";
-}
-$pageContent = template('v_form', ['errors' => $er,
-    'login' => $params['login'],
-    'message' => $params['message']
+
+$pageContent = template('v_form', [
+    'validateErrors' => $validateErrors,
+    'params' => $params
 ]);
